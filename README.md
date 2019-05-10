@@ -1,6 +1,7 @@
 # vue-d3
 > 基于vue-cli3 实现的d3.js demo项目，在vue中使用d3
-[示例](npm run test:unit)
+
+[示例](http://calamus.wiki/vue-d3/)
 
 ## Project setup
 ```
