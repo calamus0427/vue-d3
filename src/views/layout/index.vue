@@ -11,12 +11,14 @@
             />
       </div>
       <a-menu  mode="inline" :defaultSelectedKeys="[route.name]" @click="clickMenu">
-        <a-menu-item key="test">
-            <a-icon type="home" /> 首页
+        <a-menu-item key="home">
+            <a-icon type="home" /> 
+            <span>首页</span>
         </a-menu-item>
         <a-sub-menu key="about">
             <span slot="title"><a-icon type="smile" /><span>基础</span></span>
-            <a-menu-item key="charts">表格</a-menu-item>
+            <a-menu-item key="graphics">基础图形</a-menu-item>
+            <a-menu-item key="charts">基础表格</a-menu-item>
         </a-sub-menu>
       </a-menu>
     </a-layout-sider>

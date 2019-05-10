@@ -58,14 +58,14 @@ module.exports = {
           }
         }
       },
-      // pwa: {
-      //   iconPaths: {
-      //     favicon32: 'https://cdn.calamus.xyz/favicon.ico',
-      //     favicon16: 'https://cdn.calamus.xyz/favicon.ico',
-      //     appleTouchIcon: 'https://cdn.calamus.xyz/favicon.ico',
-      //     maskIcon: 'https://cdn.calamus.xyz/favicon.ico',
-      //     msTileImage: 'https://cdn.calamus.xyz/favicon.ico'
-      //   }
-      // }
+      pwa: {
+        iconPaths: {
+          favicon32: 'img/favicon.ico',
+          favicon16: 'img/favicon.ico',
+          appleTouchIcon: 'img/favicon.ico',
+          maskIcon: 'img/favicon.ico',
+          msTileImage: 'img/favicon.ico'
+        }
+      }
 
   }

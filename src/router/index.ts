@@ -13,16 +13,17 @@ export default new Router({
       path: '/',
       name: 'layout',
       component: layout,
+      redirect:'/home',
       children:[
           {
-                path: '/',
+                path: '/home',
                 name: 'home',
-                component:Home
+                component:() => import('../views/index.vue')
           },
           {
-                path: '/test',
-                name: 'test',
-                component:() => import('../views/test.vue')
+                path: '/graphics',
+                name: 'graphics',
+                component:() => import('../views/graphics/index.vue')
           },
           {
                 path: '/charts',
@@ -36,5 +37,9 @@ export default new Router({
       name: 'about',
       component: () => import('../views/About.vue'),
     },
+    {
+      path: '*',
+      component: () => import('../views/others/404.vue'),
+    }
   ],
 });
